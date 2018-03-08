@@ -1,0 +1,16 @@
+[user]
+	name = xiaobinwen
+	email = xiaobinwen@163.com
+[color]
+	ui = auto
+[core]
+	excludesfile = /home/holmes/.gitignore
+	editor = vim
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	cm = commit
+        lg = log --graph --pretty=format:'%Cred%h%Creset [%an %ai] %C(yellow)%d%Creset %s %Cgreen(%cr)%Creset'
+[url "https://anonscm.debian.org/git/d-i/"]
+	insteadOf = git+ssh://git.debian.org/git/d-i/
